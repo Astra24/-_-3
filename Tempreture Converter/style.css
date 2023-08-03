@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(221, 146, 226), rgb(92, 9, 88));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1.h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.converter {
+    display: flex;
+    width: 70%;
+    height: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(92, 9, 88);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.col label {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #f8e0f8;
+}
+
+.col input {
+    width: 150px;
+    height: 30px;
+    background: white;
+    text-align: center;
+}
+
+.col {
+    flex-basis: 32%;
+    text-align: center;
+}
